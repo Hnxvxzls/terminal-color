@@ -23,9 +23,7 @@ function mostrarEstado() {
   console.warn(chalk.yellow('⚠️ Alerta de memoria baja (simulación).'));
   console.log(chalk.green('✅ Proceso finalizado con éxito.'));
 }
-
 // Llamamos a la nueva función para probarla
-mostrarEstado();// Importamos la librería chalk (Paso 7)
 
 function simularError() {
   console.warn(chalk.yellow.bold('⚠️ ADVERTENCIA: Se detectó un problema de red (simulación).'));
